@@ -1,0 +1,15 @@
+// 난생처음 C언어 프로그래밍
+// Chapter 04(Section 08)
+
+#include <stdio.h>
+
+int main()
+{
+    int a = 33554434;
+    float b = 0.1;
+
+    int c1 = a + b;
+    int c2 = a + (int)b;
+
+    printf("c1: %d, c2: %d", c1, c2);
+}
